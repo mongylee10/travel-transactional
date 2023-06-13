@@ -1,0 +1,489 @@
+<mjml>
+
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito:wght@700&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Arial" letter-spacing="2px" line-height="20px" font-size="16px" padding="0px"/>
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#f9f9f9">
+    <mj-wrapper padding-bottom="40px">
+
+      // top header
+      <mj-section padding-top="5px" padding-bottom="40px">
+        <mj-column padding-right="20px">
+          <mj-text align="right" font-size="10px">
+            <a href="#" style="color: #000000;">View in browser</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // logo/customer info
+      <mj-section padding-top="20px" padding-bottom="20px">
+        <mj-group>
+          <mj-column width="40%" padding-right="20px" padding-left="20px">
+            <mj-image align="left" width="80px" src="img/logo.png" alt="logo" />
+          </mj-column>
+
+          <mj-column width="60%" padding-right="20px" padding-left="20px">
+            <mj-text align="right" font-size="12px">
+              James Brown
+            </mj-text>
+            <mj-text align="right" font-size="12px">
+              Member Nr. <span style="color: #ea5256;">688969807</span> | Level <span style="color: #ea5256;">Basic</span>
+            </mj-text>
+            <mj-text align="right" font-size="12px">
+              Reward Points <span style="color: #ea5256;">2000</span>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      // flight text
+      <mj-section background-color="#A9E0FF" border-radius="20px 20px 0px 0px" padding-top="30px" padding-bottom="30px">
+        <mj-column>
+          <mj-text align="center" color="#1678ac" font-weight="bold">
+            Flight Confirmation
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // confirmation code
+      <mj-section background-color="#ffffff" padding-top="20px" padding-bottom="20px">
+        <mj-column padding-left="50px">
+          <mj-text padding-bottom="10px">
+            Confirmation Code
+          </mj-text>
+          <mj-text color="#ea5256" font-weight="bold" font-size="20px">
+            WTH34LT
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // section 3/trip destination
+      <mj-section background-color="#ea5256" padding-top="60px">
+        <mj-column>
+          <mj-text color="#ffffff" font-size="42px" align="center" font-weight="bold" padding-bottom="30px">
+            OTP
+          </mj-text>
+          <mj-text color="#ffffff" align="center" font-weight="bold">
+            Bucharest
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-image src="img/airplane.gif" width="140px" alt="airplane animation" />
+          <mj-text align="center" color="#ffffff" font-size="12px">
+            Flight Duration
+          </mj-text>
+          <mj-text align="center" color="#ffffff" font-size="12px">
+            2h 54m
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-text color="#ffffff" align="center" font-size="42px" font-weight="bold" padding-bottom="30px">
+            LHR
+          </mj-text>
+          <mj-text color="#ffffff" align="center" font-weight="bold">
+            London
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // divider
+      <mj-section background-color="#ea5256" padding-top="60px" padding-bottom="10px">
+        <mj-column>
+          <mj-divider border-width="1px" border-color="#ffffff" width="500px" />
+        </mj-column>
+      </mj-section>
+
+      // plane info
+      <mj-section background-color="#ea5256" padding-top="20px" padding-bottom="40px">
+        <mj-column padding-left="20px">
+          <mj-text align="center" font-size="14px" color="#ffffff" padding-bottom="20px">
+            Terminal
+          </mj-text>
+          <mj-text align="center" font-size="18px" font-weight="bold" color="#ffffff">
+            A
+          </mj-text>
+        </mj-column>
+
+        <mj-column padding-left="20px">
+          <mj-text align="center" font-size="14px" color="#ffffff" padding-bottom="20px">
+            Boarding Time
+          </mj-text>
+          <mj-text align="center" font-size="18px" font-weight="bold" color="#ffffff">
+            16:45
+          </mj-text>
+        </mj-column>
+
+        <mj-column padding-left="20px">
+          <mj-text align="center" font-size="14px" color="#ffffff" padding-bottom="20px">
+            Class
+          </mj-text>
+          <mj-text align="center" font-size="18px" font-weight="bold" color="#ffffff">
+            Economy
+          </mj-text>
+        </mj-column>
+
+        <mj-column padding-left="20px">
+          <mj-text align="center" font-size="14px" color="#ffffff" padding-bottom="20px">
+            Seat
+          </mj-text>
+          <mj-text align="center" font-size="18px" font-weight="bold" color="#ffffff">
+            17A
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // divider
+      <mj-section>
+        <mj-column>
+          <mj-image src="img/rounded_corners.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      // plane info
+      <mj-section background-color="#ffffff" padding-top="20px">
+        <mj-column padding-left="20px">
+          <mj-text align="center" font-size="14px" padding-bottom="20px">
+            Flight
+          </mj-text>
+          <mj-text align="center" font-size="18px" font-weight="bold">
+            WT897
+          </mj-text>
+        </mj-column>
+
+        <mj-column padding-left="20px">
+          <mj-text align="center" font-size="14px" padding-bottom="20px">
+            Date
+          </mj-text>
+          <mj-text align="center" font-size="18px" font-weight="bold">
+            14Jan
+          </mj-text>
+        </mj-column>
+
+        <mj-column padding-left="20px">
+          <mj-text align="center" font-size="14px" padding-bottom="20px">
+            Plane
+          </mj-text>
+          <mj-text align="center" font-size="18px" font-weight="bold">
+            A320
+          </mj-text>
+        </mj-column>
+
+        <mj-column padding-left="20px">
+          <mj-text align="center" font-size="14px" padding-bottom="20px">
+          </mj-text>
+          <mj-text align="center" font-size="18px" font-weight="bold">
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // barcode
+      <mj-section padding-top="20px" background-color="#ffffff">
+        <mj-column>
+          <mj-image src="img/barcode.png" alt="barcode" />
+        </mj-column>
+      </mj-section>
+
+      // boarding pass btn
+      <mj-section background-color="#ffffff" padding-top="40px" padding-bottom="20px">
+        <mj-column>
+          <mj-button href="#" background-color="#ea5256">
+            Download Boarding Pass
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      // divider
+      <mj-section>
+        <mj-column>
+          <mj-image src="img/rounded_corners.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      // booking details
+      <mj-section background-color="#ffffff" padding-top="20px" padding-bottom="20px">
+        <mj-column padding-left="50px">
+          <mj-text font-weight="bold">
+            Booking Details
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff">
+        <mj-column padding-left="50px">
+          <mj-text font-size="14px" padding-bottom="10px">
+            Luggage
+          </mj-text>
+          <mj-text font-size="14px" padding-bottom="10px">
+            Seat
+          </mj-text>
+          <mj-text font-size="14px">
+            Class
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-text font-size="14px" padding-bottom="10px">
+            1 x 24kg
+          </mj-text>
+          <mj-text font-size="14px" padding-bottom="10px">
+            17A
+          </mj-text>
+          <mj-text font-size="14px">
+            Economy
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // make changes btn
+      <mj-section background-color="#ffffff" padding-top="40px" padding-bottom="20px">
+        <mj-column>
+          <mj-button href="#" background-color="#ea5256">
+            Make Changes
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      // divider
+      <mj-section>
+        <mj-column>
+          <mj-image src="img/rounded_corners.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      // receipt details
+      <mj-section background-color="#ffffff" padding-top="20px" padding-bottom="20px">
+        <mj-column padding-left="50px">
+          <mj-text font-weight="bold">
+            Your Trip Receipt
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding-top="10px" padding-bottom="10px">
+        <mj-column width="80px" padding-left="40px">
+          <mj-image src="img/creadit_card.png" align="left" alt="credit card icon" />
+        </mj-column>
+
+        <mj-column width="500px">
+          <mj-text padding-left="20px" font-size="14px">
+            Visa xxxx xxxx xxxx xx34
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding-top="20px" padding-bottom="20px">
+        <mj-column padding-left="50px">
+          <mj-text font-weight="bold">
+            James Brown
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding-bottom="20px">
+        <mj-column padding-left="50px">
+          <mj-text font-size="14px" padding-bottom="10px">
+            Basic Economy Far x1
+          </mj-text>
+          <mj-text font-size="14px" padding-bottom="10px">
+            Fees % Taxes
+          </mj-text>
+          <mj-text font-size="14px" font-weight="bold">
+            Total
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-text font-size="14px" padding-bottom="10px">
+            $350
+          </mj-text>
+          <mj-text font-size="14px" padding-bottom="10px">
+            $50
+          </mj-text>
+          <mj-text font-size="14px" font-weight="bold">
+            $400
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // divider
+      <mj-section>
+        <mj-column>
+          <mj-image src="img/rounded_corners.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      // map
+      <mj-section background-color="#e7e7e7" padding-top="20px" padding-bottom="20px">
+        <mj-column padding-left="50px" padding-right="20px" padding-top="10px">
+          <mj-text font-weight="bold" padding-bottom="20px">
+            Get Pick Up
+          </mj-text>
+          <mj-text font-size="14px" font-weight="bold">
+            Terminal 2
+          </mj-text>
+          <mj-text font-size="14px" padding-bottom="20px">
+            Inner Ring E, Hounslow TW6 1RR, UK
+          </mj-text>
+          <mj-button href="#" align="left" background-color="#ea5256">
+            Reserve Taxi
+          </mj-button>
+        </mj-column>
+
+        <mj-column padding-right="50px">
+          <mj-image src="img/map.png" alt="map" />
+        </mj-column>
+      </mj-section>
+
+      // divider
+      <mj-section>
+        <mj-column>
+          <mj-divider border-style="dashed" border-width="2px" border-color="#ffffff" container-background-color="#e7e7e7" />
+        </mj-column>
+      </mj-section>
+
+      // hotels
+      <mj-section background-color="#e7e7e7" padding-top="20px" padding-bottom="20px">
+        <mj-column padding-left="50px" padding-right="20px" padding-top="10px">
+          <mj-text font-weight="bold" padding-bottom="20px">
+            Reserve Hotel
+          </mj-text>
+          <mj-text font-size="14px" padding-bottom="20px">
+            Up to 35% off base price + 5 000 bonus miles
+          </mj-text>
+          <mj-button href="#" align="left" background-color="#ea5256">
+            Reserve Hotel
+          </mj-button>
+        </mj-column>
+
+        <mj-column padding-right="50px">
+          <mj-image src="img/hotel.png" alt="hotel" />
+        </mj-column>
+      </mj-section>
+
+      // divider
+      <mj-section>
+        <mj-column>
+          <mj-divider border-style="dashed" border-width="2px" border-color="#ffffff" container-background-color="#e7e7e7" />
+        </mj-column>
+      </mj-section>
+
+      // map
+      <mj-section background-color="#e7e7e7" padding-top="20px" padding-bottom="20px">
+        <mj-column padding-left="50px" padding-right="20px" padding-top="10px">
+          <mj-text font-weight="bold" padding-bottom="20px">
+            Shopping In The Air
+          </mj-text>
+          <mj-text font-size="14px" padding-bottom="20px">
+            You will receive a 20% discount on tax-free purchases made on the flight
+          </mj-text>
+          <mj-button href="#" align="left" background-color="#ea5256">
+            View Catalog
+          </mj-button>
+        </mj-column>
+
+        <mj-column padding-right="50px">
+          <mj-image src="img/shopping.png" alt="shopping" />
+        </mj-column>
+      </mj-section>
+
+      // divider
+      <mj-section>
+        <mj-column>
+          <mj-image src="img/rounded_corners.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      // download app
+      <mj-section background-color="#ffffff" padding-top="40px" padding-bottom="40px" border-radius="0px 0px 20px 20px">
+        <mj-column width="45%" padding-left="50px" padding-right="20px">
+          <mj-text font-weight="bold">
+            DOWNLOAD FREE
+          </mj-text>
+          <mj-text font-size="14px">
+            MOBILE APPLICATION
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="55%" padding-right="50px">
+          <mj-image src="img/download.png" alt="shopping" />
+        </mj-column>
+      </mj-section>
+
+      // logo
+      <mj-section padding-top="40px">
+        <mj-column>
+          <mj-image src="img/logo.png" width="80px" alt="logo" />
+        </mj-column>
+      </mj-section>
+
+      // bottom nav
+      <mj-section padding-top="20px">
+        <mj-column>
+          <mj-text align="center">
+            <a href="#" style="color: #000000; font-size: 12px; text-decoration: none;">Need Help</a>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-text align="center">
+            <a href="#" style="color: #000000; font-size: 12px; text-decoration: none;">Flight Deals</a>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-text align="center">
+            <a href="#" style="color: #000000; font-size: 12px; text-decoration: none;">Earn Miles</a>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-text align="center">
+            <a href="#" style="color: #000000; font-size: 12px; text-decoration: none;">Give Back</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // divider
+      <mj-section padding-top="20px">
+        <mj-column>
+          <mj-divider border-style="dashed" border-width="2px" border-color="#e7e7e7" container-background-color="#ffffff" />
+        </mj-column>
+      </mj-section>
+
+      // social
+      <mj-section padding-top="20px">
+        <mj-column width="40%" padding-right="10px">
+          <mj-image href="#" align="right" width="30px" src="img/facebook.png" alt="facebook" />
+        </mj-column>
+        <mj-column width="10%">
+          <mj-image href="#" align="center" width="30px" src="img/twitter.png" alt="twitter" />
+        </mj-column>
+        <mj-column width="10%">
+          <mj-image href="#" align="center" width="30px" src="img/instagram.png" alt="instagram" />
+        </mj-column>
+        <mj-column width="40%" padding-left="10px">
+          <mj-image href="#" align="left" width="30px" src="img/linkedin.png" alt="linkedin" />
+        </mj-column>
+      </mj-section>
+
+      // bottom nav
+      <mj-section padding-top="20px" padding-bottom="20px">
+        <mj-column>
+          <mj-text align="center" font-size="10px">
+            <span><a href="#" style="color: #000000;">Manage Preferenes</a></span>&nbsp;|&nbsp;
+            <span><a href="#" style="color: #000000;">Help & Contact</a></span>&nbsp;|&nbsp;
+            <span><a href="#" style="color: #000000;">Privacy Notice</a></span>&nbsp;|&nbsp;
+            <span><a href="#" style="color: #000000;">View Online</a></span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>
